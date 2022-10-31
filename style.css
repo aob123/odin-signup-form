@@ -14,7 +14,6 @@ main {
 .pageLogo {
   height: 100vh;
   width: 33vw;
-  background-color: red;
   min-width: 330px;
   /* Photo credit: Evgeni Evgeniev, https://unsplash.com/@evgenievgenief */
   background-image: url('https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2412&q=80');
