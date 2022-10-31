@@ -1,6 +1,7 @@
-#The Odin Project
+# The Odin Project
 
-##Project: Sign-up form, Intermediate HTML and CSS Course.
+## Project: Sign-up form, Intermediate HTML and CSS Course.
+
 (https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
 A simple landing page based on a design which was provided by The Odin Project for this project.
