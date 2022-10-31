@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500;1,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.pageLogo {
+  height: 100vh;
+  width: 33vw;
+  background-color: red;
+  min-width: 330px;
+  /* Photo credit: Evgeni Evgeniev, https://unsplash.com/@evgenievgenief */
+  background-image: url('https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2412&q=80');
+  background-repeat: none;
+  background-size: cover;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.pageLogo > article {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(29, 29, 29, 0.69);
+  display: flex;
+  margin-top: 40%;
+  /* box-shadow: 0px 0px 20px rgb(168, 168, 168); */
+  /* padding-top: 25%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.pageLogo > article > h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.pageLogo > article > img {
+  height: 120px;
+  width: auto;
+  padding-right: 1rem;
+}
+
+.pageForm {
+  height: 100vh;
+  width: 67vw;
+  background-color: rgb(238, 244, 238);
+  min-width: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+article {
+  width: 66%;
+  padding-left: 2em;
+}
+
+.formSection {
+  background-color: white;
+  width: auto;
+  height: 33%;
+  box-shadow: 0px 5px 5px rgba(77, 77, 77, 0.309);
+}
+
+.form {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0 4rem 1rem 0;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(120, 120, 120);
+  box-shadow: none;
+}
+
+label {
+  font-size: smaller;
+  padding-bottom: 3px;
+  font-weight: 500;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding-bottom: 0rem; */
+  font-family: 'Red Hat Display';
+}
+
+.buttonSection > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonSection > div > p {
+  padding-right: 5px;
+}
+
+.buttonSection > div > a {
+  text-decoration: none;
+  color: #1e2730;
+  font-weight: 500;
+}
+
+button {
+  width: 12rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #1e2730;
+  color: white;
+  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
